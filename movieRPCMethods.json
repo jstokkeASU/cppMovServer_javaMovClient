@@ -1,0 +1,32 @@
+[
+    {
+        "method": "saveToJsonFile",
+        "params":[ ],
+        "returns": true
+    },
+    {
+        "method": "resetFromJsonFile",
+        "params":[ ],
+        "returns": true
+    },
+    {   // add(JsonOfAMovieDescription) --> bool
+        "method": "add",
+        "params":[{ }],
+        "returns": true
+    },
+    {   // remove(string) --> bool
+        "method": "remove",
+        "params":["Tim"],
+        "returns": true
+    },
+    {   // get(string) --> jsonOfAMovieDescription
+        "method": "get",
+        "params":["Pretty Woman"],
+        "returns":{ }
+    },
+    {   // getTitles() --> json array of strings of MovieDescription titles
+        "method": "getTitles",
+        "params":[],
+        "returns": [ ]
+    }
+]
